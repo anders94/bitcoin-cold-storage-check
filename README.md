@@ -1,2 +1,27 @@
 # bitcoin-cold-storage-check
-Show how much bitcoin addresses contain.
+Display the amount of bitcoin stored in cold storage addresses.
+
+Setup
+-----
+Start by installing the dependancies:
+
+    npm install
+
+Copy the addresses.json.example to addresses.json and edit to taste.
+
+    cp addresses.json.example addresses.json
+
+Run
+---
+Find out the present value in USD of the addresses in addresses.json:
+
+    node app
+
+Notes
+-----
+This package first gets the current USD / BTC price from Bitfinex. Support 
+for other exchanges isn't yet available.
+
+This tool also relies on Insight from BitPay. You can run your own copy of 
+Insight locally so you aren't "tipping your hat" to the world about your
+cold storage addresses.
