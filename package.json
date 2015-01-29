@@ -1,0 +1,26 @@
+{
+  "name": "bitcoin-cold-storage-check",
+  "description": "Monitor bitcoin quantities in cold storage addresses.",
+  "main": "app",
+  "author": {
+    "name": "Anders Brownworth"
+  },
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anders94/bitcoin-cold-storage-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anders94/bitcoin-cold-storage-check/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/caolan/async/raw/master/LICENSE"
+    }
+  ],
+  "dependencies": {
+    "async": "^0.9.0",
+    "request": "^2.51.0"
+  }
+}
