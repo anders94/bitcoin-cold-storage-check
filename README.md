@@ -7,9 +7,11 @@ Start by installing the dependancies:
 
     npm install
 
-Copy the addresses.json.example to addresses.json and edit to taste.
+Copy the addresses.json.example to addresses.json:
 
     cp addresses.json.example addresses.json
+
+Edit and add the addresses you wish to track.
 
 Run
 ---
