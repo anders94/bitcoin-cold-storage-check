@@ -1,5 +1,6 @@
 # bitcoin-cold-storage-check
-Display the amount of bitcoin stored in cold storage addresses.
+Display the amount of bitcoin stored in cold storage addresses. Uses api.bitfinex.com 
+and insight.bitpay.com for data.
 
 Setup
 -----
