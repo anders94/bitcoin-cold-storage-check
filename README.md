@@ -25,6 +25,6 @@ Notes
 This package first gets the current USD / BTC price from Bitfinex. Support 
 for other exchanges isn't yet available.
 
-This tool also relies on Insight from BitPay. You can run your own copy of 
+This tool also relies on [Insight from BitPay](https://github.com/bitpay/insight). You can run your own copy of 
 Insight locally so you aren't "tipping your hand" to the world about your
 cold storage addresses.
